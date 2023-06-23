@@ -20,3 +20,16 @@ API_KEY_WAPI = 'f3cf65ff7ae64bccad9210657220807'
 3. Clonar repositorio (requirements.txt  twilio_config.py  twilio_script.py  utils.py)
 
 4. ```pip3 install -r requirements.txt```
+
+# Ejecución
+Dar permisos de ejecución al file
+
+```bash
+chmod +x execute.sh
+```
+
+## Configuración de Crontab
+
+```
+0 5 * * *  /home/arnol/projects/weather-forecast/execute.sh >> /home/arnol/projects/weather-forecast/logs.log 2>&1
+```

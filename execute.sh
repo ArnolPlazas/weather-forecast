@@ -1,5 +1,6 @@
 # !/bin/bash
 
+cd /home/arnol/projects/weather-forecast/
 
 git pull origin main
 
